@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 def list_division(my_list_1, my_list_2, list_length):
     new_list = []
-    length1 = len(my_list_1)
-    length2 = len(my_list_2)
-    if length1 > length2:
-        for i in range(length2, length1):
+    len1 = len(my_list_1)
+    len2 = len(my_list_2)
+    if len1 > len2:
+        for i in range(len2, len1):
             my_list_2.append(None)
-    elif length1 < length2:
-        for i in range(length1, length2):
+    elif len1 < len2:
+        for i in range(len1, len2):
             my_list_1.append(None)
     for i, j in zip(my_list_1, my_list_2):
         # print(f"{i} and {j}")
