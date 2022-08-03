@@ -8,5 +8,5 @@ def pascal_triangle(n):
     if n == 1:
         return [[1]]
     for r in range(1, n):
-        if len in r:
-            len = [1]
+        if l in r:
+            l = [1]
